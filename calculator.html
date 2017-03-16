@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <title>Калькулятор</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   </head>
+   <body>
+      <header id="mainHeader">
+         <a href="./index.html"><img src="./webLogo.png" alt="Logo" width="150" /></a>
+            <h1>Основы Web-технологий</h1>
+               <ul id="mainMenu">
+                  <li><a href="./index.html">Главная</a></li>
+                  <li><a href="./webTech.html">Web-технологии</a>
+                     <ul id="dropdownList">
+                        <li><a href="./html5.html">HTML5</a></li>
+                        <li><a href="./css3.html">CSS3</a></li>
+                        <li><a href="./js.html">JavaScript</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="./calculator.html">Калькулятор</a></li>
+                  <li><a href="./testTask.html">Тест</a></li> 
+               </ul>              
+      </header>
+      <form name="formCalculator" id="formCalc">
+         <table id="tableCalculator" border="1">
+            <tr>
+               <td colspan="5">
+                  <input type="text" name="calcScreen" />
+               </td>
+            </tr>
+            <tr>
+               <td><button type="button" id="calcButton7" value="7">7</button></td>
+               <td><button type="button" id="calcButton8" value="8">8</button></td>
+               <td><button type="button" id="calcButton9" value="9">9</button></td>
+               <td><button type="button" id="calcButtonDivision" value="&#247;">/</button></td>
+               <td><button type="reset" id="calcButtonClearing">C</button></td>
+            </tr>
+            <tr>
+               <td><button type="button" id="calcButton4" value="4">4</button></td>
+               <td><button type="button" id="calcButton5" value="5">5</button></td>
+               <td><button type="button" id="calcButton6" value="6">6</button></td>
+               <td><button type="button" id="calcButtonMultiplication" value="&#215;">*</button></td>
+               <td><button type="button" id="calcButtonPlusMinus" value="&#177;">&plusmn;</button></td>
+            </tr>
+            <tr>
+               <td><button type="button" id="calcButton1" value="1">1</button></td>
+               <td><button type="button" id="calcButton2" value="2">2</button></td>
+               <td><button type="button" id="calcButton3" value="3">3</button></td>
+               <td><button type="button" id="calcButtonDeduction" value="&#8722;">-</button></td>
+               <td rowspan="2"><button type="button" id="calcButtonEqually">=</button></td>
+            </tr>
+            <tr>
+               <td colspan="2"><button type="button" id="calcButton0" value="0">0</button></td>
+               <td><button type="button" id="calcButtonDot" value=".">.</button></td>
+               <td><button type="button" id="calcButtonSum" value="+">+</button></td>
+            </tr>
+         </table>
+      </form>
+      <footer id="footer">
+         <p>
+            <address><a href="mailto:nataliia.burdina@gmail.com">Пишите: nataliia.burdina@gmail.com</a></address><br />
+            &#169; Burdina N., 2017
+         </p>
+      </footer>
+   </body>
+</html>
+      
